@@ -52,7 +52,6 @@ public class PlaySession implements Runnable {
         }
 
         gameContext.set(new Board(boardSize, numPlayers));
-        int winner = 0;
 
         do{
             synchronized (gameContext) {
