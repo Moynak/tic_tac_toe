@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class PlaySession implements Runnable {
+public class Game implements Runnable {
 
     private static ThreadLocal<Board> gameContext = new ThreadLocal<>();
     private Integer boardSize;
